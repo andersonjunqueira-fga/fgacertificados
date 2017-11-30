@@ -112,7 +112,7 @@ public class App {
 //                enviar(nome, "suzana.avila@gmail.com", pdf);
 //                System.exit(0);
                 enviar(nome, ((Usuario)u.get(0)).getEmail(), pdf);
-                System.out.println(" - " + nome + " ENVIADO!");
+                System.out.println(nome + " ENVIADO!");
             } else {
                 //System.out.println(nome);
             }
